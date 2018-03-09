@@ -1,0 +1,21 @@
+#
+#Created by: Wendi Yu
+#Created on: Mar 2 2018
+#
+#Calculate the area and cirumference of circle
+
+sizeOfPizza = float(input("What size of pizza would you like (in inch)? size of pizza = "))
+
+
+subtotal1 = 0.75+1+((sizeOfPizza)*0.50)
+Tax1 = 0.13*(subtotal1)
+
+Total1 = subtotal1 + Tax1
+print("Subtotal:   " + str(subtotal1), "Tax: " + str(Tax1), "Total: " + str(Total1))
+
+
+
+input()
+
+
+
